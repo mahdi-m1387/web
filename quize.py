@@ -11,6 +11,7 @@ html_code = urlopen("https://coinranking.com/")
 bs4 = BeautifulSoup(html_code.read(), "lxml")
 table = bs4.find_all("div", {"class": "valuta"})
 value = 100
+#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 count = 0
 total: float = 0
